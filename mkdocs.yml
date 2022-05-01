@@ -1,0 +1,67 @@
+# >>> REPLACE THE VALUE
+site_name: template-gh-pages-mkdocs
+
+# >>> REPLACE THE VALUE
+site_url: https://github.com/c-neto/template-gh-pages-mkdocs
+
+# >>> REPLACE THE VALUE
+site_description: template-gh-pages-mkdocs
+
+# >>> REPLACE THE VALUE
+site_author: Carlos Neto | @c-neto
+
+# >>> REPLACE THE VALUE
+repo_name: c-neto/template-gh-pages-mkdocs
+
+# >>> REPLACE THE VALUE
+repo_url: https://github.com/c-neto/template-gh-pages-mkdocs
+
+# >>> REPLACE THE VALUE
+edit_uri: ''
+
+# >>> REPLACE THE VALUE
+nav:
+  - template-gh-pages-mkdocs: index.md
+  - 01. Page First: 01-page-first.md
+  - 02. Page Second: 02-page-second.md
+
+theme:
+  language: en
+  name: material
+  logo: img/logo-here.png
+  favicon: img/logo-here.png
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Dark Mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Light Mode
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.top
+extra:
+  social:
+
+    - icon: fontawesome/brands/github-alt
+      # >>> REPLACE THE VALUE
+      link: https://github.com/c-neto
+
+    - icon: fontawesome/brands/linkedin
+      # >>> REPLACE THE VALUE
+      link: https://linkedin.com/in/c-neto
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
