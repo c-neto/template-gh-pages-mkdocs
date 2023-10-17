@@ -5,7 +5,7 @@ Template repository to make a web page with: Mkdocs + GitHub Pages.
 The content is written in the Markdown file format. Each commit and push on `main` branch trigger a _GitHub Action_ that transpile Markdown files to modern web static files with MkDocs and provides via Github Pages.
 
 Check the web content that you page will reach when you use this template: 
-- https://c-neto.github.io/template-gh-pages-mkdocs/01-cloud-concepts/
+- https://c-neto.github.io/template-gh-pages-mkdocs/
 
 ## Directory Structure
 
