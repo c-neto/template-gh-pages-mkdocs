@@ -44,7 +44,14 @@ Replace the all variables that had `>>> REPLACE THE VALUE` in the [./mkdocs.yml]
 
 The [/.github/workflows/deploy-contents-to-github-pages.yml](.github/workflows/deploy-contents-to-github-pages.yml) use the `${{ secrets.GITHUB_TOKEN }}` variable to perform the push of the `gh-pages` branch. For this, it is necessary configure the Read Write permission for GitHub action. Check the following print to configure it.
 
----
 ![](./.img/how-to-configure-git-actions.png)
+
 ---
+
+### 3. Enable GitHub Pages Feature
+
+Now, it is necessary configure the GitHub Pages. The GitHub Action [/.github/workflows/deploy-contents-to-github-pages.yml](.github/workflows/deploy-contents-to-github-pages.yml) create a `gh-pages` branch with the static file of the Mkdocs transpilation. Thus, you must configure the GitHub Pages to use the branch `gh-pages` as a source to render the web files.
+
+
+![](./.img/how-to-configure-git-pages.png)
 
