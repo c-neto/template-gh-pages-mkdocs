@@ -2,19 +2,19 @@
 site_name: template-gh-pages-mkdocs
 
 # >>> REPLACE THE VALUE
-site_url: https://github.com/augustoliks/template-gh-pages-mkdocs
+site_url: https://github.com/c-neto/template-gh-pages-mkdocs
 
 # >>> REPLACE THE VALUE
 site_description: template-gh-pages-mkdocs
 
 # >>> REPLACE THE VALUE
-site_author: Carlos Neto | @augustoliks
+site_author: Carlos Neto | @c-neto
 
 # >>> REPLACE THE VALUE
-repo_name: augustoliks/template-gh-pages-mkdocs
+repo_name: c-neto/template-gh-pages-mkdocs
 
 # >>> REPLACE THE VALUE
-repo_url: https://github.com/augustoliks/template-gh-pages-mkdocs
+repo_url: https://github.com/c-neto/template-gh-pages-mkdocs
 
 # >>> REPLACE THE VALUE
 edit_uri: ''
@@ -52,7 +52,7 @@ extra:
 
     - icon: fontawesome/brands/github-alt
       # >>> REPLACE THE VALUE
-      link: https://github.com/augustoliks
+      link: https://github.com/c-neto
 
     - icon: fontawesome/brands/linkedin
       # >>> REPLACE THE VALUE
