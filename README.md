@@ -58,7 +58,7 @@ Now, it is necessary configure the GitHub Pages. The GitHub Action [/.github/wor
 
 ## Where is my GitHub Page Link?
 
-If you correctly configure your repo, the link will be able in the following pattern:
+If you correctly configured your repo, the link will be able in the following pattern:
 
 - `https://<MY-GITHUB-USERNAME>.github.io/<MY-GITHUB-REPO>/`
 
