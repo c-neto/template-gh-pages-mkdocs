@@ -42,7 +42,7 @@ Replace the all variables that had `>>> REPLACE THE VALUE` in the [./mkdocs.yml]
 
 ### 2. Configure the GitHub Action permissions
 
-The [./template-gh-pages-mkdocs/.github/workflows/deploy-contents-to-github-pages.yml](.github/workflows/deploy-contents-to-github-pages.yml) use the `${{ secrets.GITHUB_TOKEN }}` variable to perform the push of the `gh-pages` branch. For this, it is necessary configure the Read Write permission for GitHub action. Check the following print to configure it.
+The [/.github/workflows/deploy-contents-to-github-pages.yml](.github/workflows/deploy-contents-to-github-pages.yml) use the `${{ secrets.GITHUB_TOKEN }}` variable to perform the push of the `gh-pages` branch. For this, it is necessary configure the Read Write permission for GitHub action. Check the following print to configure it.
 
 ---
 ![](./.img/how-to-configure-git-actions.png)
