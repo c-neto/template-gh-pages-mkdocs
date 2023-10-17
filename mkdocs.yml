@@ -1,19 +1,15 @@
-site_name: aws-mini-book
-site_url: https://github.com/augustoliks/aws-mini-book
+site_name: PLACEHOLDER-YOUR-REPO
+site_url: PLACEHOLDER-YOUR-REPO
 site_description: AWS Concepts
-site_author: Carlos Neto | @augustoliks
-repo_name: augustoliks/aws-mini-book
-repo_url: https://github.com/augustoliks/aws-mini-book
+site_author: PLACEHOLDER-YOUR-NAME
+repo_name: PLACEHOLDER-YOUR-REPO
+repo_url: PLACEHOLDER-YOUR-REPO
 edit_uri: ''
 
 nav:
-  - aws-mini-book: index.md
-  - 01. Cloud Concepts: 01-cloud-concepts.md
-  - 02. Accounts Organization: 02-accounts-organization.md
-  - 03. Well Architected Framework: 03-well-architected-framework.md
-  - 04. Security, Identity & Compliance: 04-security-identity-compliance.md
-  - Extra - AWS Awesome: extra-aws-awesome.md
-  - Extra - Page Contributors: extra-contributors.md
+  - template-gh-pages-mkdocs: index.md
+  - 01. Page First: 01-page-first.md
+  - 02. Page Second: 02-page-second.md
 
 theme:
   language: en
@@ -40,9 +36,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/augustoliks/aws-mini-book
+      link: PLACEHOLDER-YOUR-GITHUB-LINK
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/c-neto
+      link: PLACEHOLDER-YOUR-LINKEDIN-LINK
 
 markdown_extensions:
   - pymdownx.highlight

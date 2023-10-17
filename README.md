@@ -1,18 +1,13 @@
-[![Github Pages](https://github.com/augustoliks/aws-mini-book/actions/workflows/deploy-contents-to-github-pages.yml/badge.svg?branch=main)](https://github.com/augustoliks/aws-mini-book/actions/workflows/deploy-contents-to-github-pages.yml)
+# template-gh-pages-mkdocs
 
-# aws-mini-book
+Template repository to make a web page with: Mkdocs + GitHub Pages.
 
-AWS cloud concepts studies guide. 
+The content is written in the Markdown file format. Each commit and push on `main` branch trigger a _GitHub Action_ that transpile Markdown files to modern web static files with MkDocs and provides via Github Pages.
 
-The repository was created to centralize informations and notes about the principal components of the AWS Cloud Provider. The objective this project is provides a solid base to prepare students for AWS certificates exams.
+Check the web content that you page will reach when you use this template: 
+- https://c-neto.github.io/template-gh-pages-mkdocs/01-cloud-concepts/
 
-The content is written in the Markdown file format. Each commit and push on `main` branch trigger a [GitHub Action](https://github.com/augustoliks/aws-mini-book/actions) that transpile Markdown files to modern web static files with MkDocs and provides via Github Pages.
-
-**Check the `aws-mini-book` present content:** https://augustoliks.github.io/aws-mini-book/
-
-## Contributing
-
-Contributions are very welcome! The repository is an open initiative, collaborate with your PR :smile: :rocket:
+## Directory Structure
 
 Project directories structure pattern:
 
@@ -37,4 +32,10 @@ $ make venv       # create python3 virtualenv and install requirements (MkDocs a
 $ make serve      # run local web server with hot reload feature
 ```
 
-If the commands above were runned with successful, the web content will be accessible: http://127.0.0.1:8000/
+If the commands above were run with successful, the web content will be accessible: http://127.0.0.1:8000/
+
+## Configure the GitHub Action permissions
+
+The [./template-gh-pages-mkdocs/.github/workflows/deploy-contents-to-github-pages.yml](.github/workflows/deploy-contents-to-github-pages.yml) use the `${{ secrets.GITHUB_TOKEN }}` variable to perform the push of the `gh-pages` branch. For this, it is necessary configure the Read Write permission for GitHub action. Check the following print to configure it.
+
+![](./.img/how-to-configure-git-actions.png)
