@@ -1,9 +1,9 @@
-site_name: PLACEHOLDER-YOUR-REPO
-site_url: PLACEHOLDER-YOUR-REPO
+site_name: template-gh-pages-mkdocs
+site_url: https://github.com/augustoliks/template-gh-pages-mkdocs
 site_description: AWS Concepts
-site_author: PLACEHOLDER-YOUR-NAME
-repo_name: PLACEHOLDER-YOUR-REPO
-repo_url: PLACEHOLDER-YOUR-REPO
+site_author: Carlos Neto | @augustoliks
+repo_name: augustoliks/template-gh-pages-mkdocs
+repo_url: https://github.com/augustoliks/template-gh-pages-mkdocs
 edit_uri: ''
 
 nav:
