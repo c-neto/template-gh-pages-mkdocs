@@ -28,8 +28,8 @@ nav:
 theme:
   language: en
   name: material
-  logo: img/00-aws-logo.svg
-  favicon: img/00-aws-logo.svg
+  logo: img/logo-here.png
+  favicon: img/logo-here.png
   palette:
     - scheme: default
       primary: teal
