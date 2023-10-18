@@ -4,7 +4,7 @@ Template repository to make a web page with: Mkdocs + GitHub Pages.
 
 The content is written in the Markdown file format. Each commit and push on `main` branch trigger a _GitHub Action_ that transpile Markdown files to modern web static files with MkDocs and provides via Github Pages.
 
-Check the web content that you page will reach when you use this template: 
+Check the web content that your page will reach when you use this template: 
 - https://c-neto.github.io/template-gh-pages-mkdocs/
 
 ## Directory Structure
@@ -38,7 +38,7 @@ If the commands above were run with successful, the web content will be accessib
 
 ### 1. Replace the `mkdocs.yml`
 
-Replace the all variables that had `>>> REPLACE THE VALUE` in the [./mkdocs.yml](./mkdocs.yml) with values based on your repo.
+Replace the all variables under `>>> REPLACE THE VALUE` in the [./mkdocs.yml](./mkdocs.yml) with values based on your repo.
 
 ### 2. Configure the GitHub Action permissions
 
